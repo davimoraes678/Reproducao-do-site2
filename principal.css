@@ -1,0 +1,257 @@
+*{margin: 0;
+box-sizing: border-box;
+color: white;
+font-family: "Poppins", sans-serif;}
+
+#pag1 {background-image: url(https://preview.colorlib.com/theme/bitmap/img/banner/home-banner.jpg);
+background-blend-mode: multiply;
+background-size: cover;
+height: 100vh;
+z-index: -10;}
+
+#pag1 header{background-color: rgba(0, 0, 0, 45%);
+height: 80px;}
+
+.logo{padding: 20px 110px;}
+
+.lista{display: flex;
+justify-content: space-around;
+padding-left: 43%;
+padding-right: 15%;
+margin-top: -45px;}
+
+.lista a{text-decoration: none;
+text-transform: uppercase;
+font-size: 12px;
+font-weight: bold;}
+
+.lista a:hover{color: #fcdc00;
+transition: 1s;}
+
+.Home{color: #fcdc00;}
+
+#block{
+background-color: black;
+width: 500px;
+height: 200px;
+margin: auto;
+margin-top: 12%;
+padding: 45px 60px;
+text-align: center;
+font-weight: 200;}
+
+.title{font-size: 30px;}
+
+.buttom{display: flex;
+justify-content: center;
+margin-top: -120px;}
+
+.buttom a{background-color: #fcdc00;
+color: black;
+width: 200px;
+height: 50px;
+margin-top: 100px;
+font-weight: 500;
+text-decoration: none;
+text-align: center;
+text-transform: uppercase;
+padding-top: 10px;}
+
+
+
+#pag2 {background-blend-mode: multiply;
+background-size: cover;
+height: 200vh;
+z-index: -10;}
+
+.lista2{display: flex;
+justify-content: center;
+margin-top: 7%;}
+
+.lista2 a{border: 1px solid gray;
+color: black;
+text-decoration: none;
+width: 100px;
+height: 50px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 10px;}
+
+.lista2 .un{width: 130px;}
+
+.lista2 .all{width: 80px;}
+
+.lista2 a:hover{background-color: #fcdc00;
+transition: 0.4s;
+box-shadow: 5px 5px 10px;}
+
+.pics p{margin-top: -95px;
+margin-left: 16%;
+font-weight: 600;
+font-size: 19px;}
+
+#imagens{width: 320px;
+height: 400px;}
+
+.pics{display: flex;
+justify-content:space-around;
+flex-wrap: wrap;
+margin-left: 100px;
+margin-right: 100px;}
+
+.pics div{padding-top: 6%;
+padding-left: -150%;}
+
+.buttom1{display: flex;
+justify-content: center;}
+
+.buttom1 a{background-color: #fcdc00;
+color: black;
+width: 200px;
+height: 50px;
+margin-top: 100px;
+font-weight: 500;
+text-decoration: none;
+text-align: center;
+text-transform: uppercase;
+padding-top: 10px;}
+
+
+
+#pag3 {background-blend-mode: multiply;
+background-size: cover;
+background-color: #fcdc00;
+height: 50vh;
+z-index: -10;}
+
+#pag3 p{color: black;}
+
+.p1{padding: 150px 350px;
+font-size: 36px;
+font-weight: 700;}
+
+.text{padding-left: 350px;
+margin-top: -130px;
+font-weight: 300;}
+
+.client{background-color: white;
+width: 550px;
+height: 200px;
+margin-left: 1000px;
+margin-top: -150px;}
+
+.client p{padding-left: 25%;}
+
+.client img{
+padding-left: 5%;
+padding-top: 8%;}
+
+.text2{margin-top: -90px;
+font-weight: 200;
+font-size: 15px;}
+
+.name{padding: 10px 10px;
+font-weight: 700;}
+
+.sub{font-weight: 200;}
+
+
+
+#pag4{background-blend-mode: multiply;
+background-size: cover;
+height: 150vh;
+z-index: -10;}
+
+#pag4 p{color: black;}
+
+.title1{text-align: center;
+font-weight: 600;
+font-size: 36px;
+padding-top: 100px;}
+
+.title2{text-align: center;
+font-weight: 200;
+font-size: 14px;
+padding-top: 15px;}
+
+.block{border: 1px solid gray;
+color: black;
+width: 360px;
+margin-top: 15px;
+margin-left: 15px;
+height: 201px;
+text-align: center;}
+
+.block:hover{background-color: #fcdc00;
+transition: 0.5s;}
+
+.flex{display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding-left: 100px;
+padding-top: 50px;
+padding-right: 100px;}
+
+.title3{padding-top: 25px;
+font-size: 18px;
+font-weight: 600;}
+
+.text3{padding-top: 15px;
+font-weight: 200;}
+
+.buttom2{display: flex;
+justify-content: center;}
+
+.buttom2 a{background-color: #fcdc00;
+color: black;
+width: 240px;
+height: 50px;
+margin-top: 100px;
+font-weight: 500;
+text-decoration: none;
+text-align: center;
+text-transform: uppercase;
+padding-top: 10px;}
+
+.img{display: flex;
+justify-content: center;
+padding-right: 100px;
+padding-top: 110px;
+padding-left: 100px;}
+
+.img img{width: 200px;
+height: 250px;}
+
+.img img:hover{width: 210px;
+height: 260px;
+transition: 0.5s;}
+
+
+
+#pag5{background-blend-mode: multiply;
+background-size: cover;
+background-color: #04091e;
+height: 50vh;
+z-index: -10;}
+
+.final{display: flex;
+justify-content: center;
+align-items: center;
+height: 400px;}
+
+.final .sec{height: 130px;
+padding-left: 45px;}
+
+.text5{padding-top: 15px;
+font-weight: 200;
+color: gray;}
+
+.final a{color: #fcdc00;}
+
+.text4{padding-top: 15px;
+font-weight: 200;
+color: gray;}
+
+.final input{width: 400px;
+padding-top: 15px;
+margin-top: 15px;}
